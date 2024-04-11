@@ -1,0 +1,50 @@
+body{
+  font-size: 14px;
+}
+
+:root{
+  /* --primary-color:#ff9406; */
+  --primary-color:#43e97b;
+  --theme-linear-gradient:linear-gradient(90deg,#96e6a1,#43e97b);
+  --title-color:linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  --van-search-left-icon-color:var(--primary-color) !important;
+  --text-color:12px;
+  background-color: #f5f7f9;
+  /* background-color: aliceblue; */
+  --van-primary-color:var(--primary-color);
+  --van-search-left-icon-color:var(--primary-color) !important;
+}
+
+.top-page{
+  position: relative;
+  z-index:9;
+  height:100vh;
+  background-color:#fff;
+  overflow-y: auto;
+}
+
+.bottom-gray-line{
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.icon_check{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/facility_yes.png) 0 0 / 100% 100%;
+}
+
+
+.icon_checkno{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: url(../img/facility_no.png) 0 0 / 100% 100%;
+}
+
+.icon_bar {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: url(../img/small_bulbs.png) 0 0 / 100% 100%;
+}
